@@ -610,7 +610,7 @@
 	color ="#af9f9f"
 
 /atom/movable/screen/alert/status_effect/emberwine
-	name = "Aphrodesiac"
+	name = "Aphrodisiac"
 	desc = "The warmth is spreading through my body..."
 	icon_state = "emberwine"
 
