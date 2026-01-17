@@ -918,9 +918,9 @@
 /datum/sex_controller/proc/get_force_pleasure_multiplier(passed_force, giving)
 	switch(passed_force)
 		if(SEX_FORCE_LOW)
-				return 0.8
+			return 0.8
 		if(SEX_FORCE_MID)
-				return 1.2
+			return 1.2
 		if(SEX_FORCE_HIGH)
 			if(giving)
 				return 1.6
