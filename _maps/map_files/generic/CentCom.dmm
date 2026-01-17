@@ -797,12 +797,6 @@
 	first_time_text = "Wretched Grotto";
 	name = "Wretched Grotto"
 	})
-"cg" = (
-/obj/effect/landmark/start/gnolllate,
-/turf/open/floor/rogue/naturalstone,
-/area/rogue/outdoors/woods{
-	first_time_text = "The Murderwood"
-	})
 "cj" = (
 /obj/structure/bed/rogue/shit,
 /obj/item/bedsheet/rogue/cloth,
@@ -4585,12 +4579,6 @@
 	first_time_text = "Wretches Camp";
 	name = "Wretches Camp"
 	})
-"sF" = (
-/obj/effect/landmark/start/gnoll,
-/turf/open/floor/rogue/naturalstone,
-/area/rogue/outdoors/woods{
-	first_time_text = "The Murderwood"
-	})
 "sI" = (
 /obj/structure/fluff/walldeco/bath,
 /turf/open/floor/rogue/grasspurple,
@@ -8308,12 +8296,6 @@
 	first_time_text = "Wretches Camp";
 	name = "Wretches Camp"
 	})
-"Ir" = (
-/obj/effect/landmark/start/gnolllate,
-/turf/open/floor/rogue/dirt,
-/area/rogue/outdoors/woods{
-	first_time_text = "The Murderwood"
-	})
 "Is" = (
 /obj/machinery/gear_painter,
 /turf/open/floor/rogue/cobble,
@@ -11615,15 +11597,6 @@
 	droning_sound_night = 'sound/music/impish.ogg';
 	first_time_text = "Wretches Camp";
 	name = "Wretches Camp"
-	})
-"WU" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "floor5-old"
-	},
-/obj/effect/landmark/start/gnolllate,
-/turf/open/floor/rogue/concrete,
-/area/rogue/outdoors/woods{
-	first_time_text = "The Murderwood"
 	})
 "WW" = (
 /obj/structure/rack/rogue,
@@ -17338,7 +17311,7 @@ xI
 RB
 kT
 IW
-cg
+YU
 YU
 JY
 JY
@@ -17720,7 +17693,7 @@ Bk
 gY
 xb
 Nl
-WU
+ir
 YU
 Bk
 Bk
@@ -18507,7 +18480,7 @@ lV
 YU
 YU
 ZX
-Ir
+ZX
 ZX
 YU
 ZX
@@ -19427,7 +19400,7 @@ JY
 JY
 JY
 YU
-cg
+YU
 YU
 Pr
 Pr
@@ -19667,7 +19640,7 @@ rQ
 JY
 XM
 YU
-cg
+YU
 YU
 iW
 ZX
@@ -20579,7 +20552,7 @@ JY
 JY
 JY
 WZ
-sF
+YU
 YU
 YU
 JY
@@ -21096,7 +21069,7 @@ rQ
 rQ
 JY
 WZ
-sF
+YU
 YU
 YU
 YU
@@ -21616,7 +21589,7 @@ rQ
 rQ
 JY
 uI
-sF
+YU
 YU
 YU
 JY
@@ -21636,7 +21609,7 @@ Jl
 Jl
 Jl
 CK
-cg
+YU
 YU
 YU
 Pr
@@ -22010,12 +21983,12 @@ JY
 JY
 JY
 YU
-sF
+YU
 YU
 JY
 JY
 YU
-sF
+YU
 YU
 mG
 JY
