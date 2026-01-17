@@ -163,6 +163,7 @@
 #define LUNATIC		(1<<17)
 #define MIGRANT		(1<<18)
 #define ASSASSIN	(1<<19)
+
 #define YOUNGFOLK	(1<<6)
 
 #define APPRENTICE	(1<<0)
@@ -184,6 +185,7 @@
 #define COURTAGENT	    (1<<5)
 #define WRETCH          (1<<6)
 #define TRADER			(1<<7)
+#define GNOLL			(1<<8)
 
 #define TRIBAL		(1<<8)
 
@@ -294,6 +296,7 @@
 #define JDO_WRETCH 30.4
 #define JDO_ASSASSIN 30.5
 #define JDO_TRADER 30.5
+#define JDO_GNOLL 30.6
 
 #define JDO_MERCENARY 31
 #define JDO_GRENZELHOFT 31.1
@@ -387,7 +390,8 @@
 	/datum/job/roguetown/mercenary/desert_rider,\
 	/datum/job/roguetown/mercenary/grenzelhoft,\
 	/datum/job/roguetown/bandit,\
-	/datum/job/roguetown/wretch
+	/datum/job/roguetown/wretch,\
+	/datum/job/roguetown/gnoll
 
 #define GARRISON_ROLES \
 	/datum/job/roguetown/bogguardsman,\

@@ -77,6 +77,9 @@
 		return FALSE
 	if(mind.has_antag_datum(/datum/antagonist/skeleton))
 		return FALSE
+	//No cross species pollination!!!
+	if(mind.has_antag_datum(/datum/antagonist/gnoll))
+		return FALSE
 	if(HAS_TRAIT(src, TRAIT_SILVER_BLESSED))
 		return FALSE
 	return TRUE
@@ -125,7 +128,7 @@
 /obj/item/clothing/suit/roguetown/armor/skin_armor/werewolf_skin
 	slot_flags = null
 	name = "verevolf's skin"
-	desc = ""
+	desc = "an impenetrable hide of dendor's fury"
 	icon_state = null
 	body_parts_covered = FULL_BODY
 	body_parts_inherent = FULL_BODY

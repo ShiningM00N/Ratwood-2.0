@@ -334,6 +334,19 @@ GLOBAL_LIST_INIT(character_flaws, list(
 		var/mob/living/carbon/human/H = user
 		H.adjust_triumphs(1)
 
+/datum/charflaw/hunted/apply_post_equipment(mob/user)
+	..()
+	if(!ishuman(user))
+		return
+	var/datum/job/gnoll_job = SSjob.GetJob("Gnoll")
+	var/total_gnoll_positions = gnoll_job.total_positions
+	var/gnoll_increase = get_gnoll_slot_increase(total_gnoll_positions)
+
+	if(gnoll_increase >= 1)
+		to_chat(user, span_notice("I have offended graggarite agents, and they may be tracking my scent."))
+		gnoll_job.total_positions = min(total_gnoll_positions + gnoll_increase, 10)
+		gnoll_job.spawn_positions = min(total_gnoll_positions + gnoll_increase, 10)
+
 /datum/charflaw/ugly
 	name = "Ugly"
 	desc = "My face is ugly and makes everyone who looks at me miserable. Incompatible with Beautiful virtue."
