@@ -49,7 +49,7 @@
 	recharge_time = 20 //2 seconds
 	ignore_cockblock = TRUE
 	var/list/extended_claw_record = list(FALSE, FALSE)
-	var/claw_type = /obj/item/rogueweapon/werewolf_claw
+	var/static/claw_type = /obj/item/rogueweapon/werewolf_claw
 
 /obj/effect/proc_holder/spell/self/claws/cast(list/targets, mob/user)
 	. = ..()

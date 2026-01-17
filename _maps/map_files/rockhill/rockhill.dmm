@@ -58502,13 +58502,6 @@
 "sao" = (
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/woodsrat/south)
-"saq" = (
-/obj/structure/fluff/traveltile{
-	aportalgoesto = "gnollexit2";
-	aportalid = "gnollent2"
-	},
-/turf/open/floor/rogue/dirt,
-/area/rogue/indoors/shelter/mountains)
 "sat" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "borderfall";
@@ -59050,13 +59043,6 @@
 /obj/item/trash/candle,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/rhgoblinencampment)
-"shN" = (
-/obj/structure/fluff/traveltile{
-	aportalgoesto = "gnollexit1";
-	aportalid = "gnollent1"
-	},
-/turf/open/floor/rogue/dirt,
-/area/rogue/indoors/shelter/mountains)
 "shO" = (
 /turf/closed/wall/mineral/rogue/decostone/mossy/red/end,
 /area/rogue/indoors/town/fire_chamber{
@@ -541727,10 +541713,10 @@ fON
 fON
 fON
 fON
-aUc
-aUc
-aUc
-aUc
+fON
+fON
+fON
+fON
 fON
 fON
 fON
@@ -542159,10 +542145,10 @@ fON
 fON
 fON
 fON
-aUc
-saq
-vrs
-aUc
+fON
+fON
+fON
+fON
 fON
 fON
 fON
@@ -542591,10 +542577,10 @@ fON
 fON
 fON
 fON
-aUc
-shN
-vrs
-aUc
+fON
+fON
+fON
+fON
 fON
 fON
 fON
@@ -543023,10 +543009,10 @@ fON
 fON
 fON
 fON
-aUc
-aUc
-vrs
-aUc
+fON
+fON
+fON
+fON
 fON
 fON
 fON
@@ -543456,10 +543442,10 @@ fON
 fON
 fON
 fON
-aUc
-vrs
-aUc
-aUc
+fON
+fON
+fON
+fON
 fON
 fON
 fON
@@ -543888,10 +543874,10 @@ fON
 fON
 fON
 fON
-aUc
-vrs
-vrs
-aUc
+fON
+fON
+fON
+fON
 fON
 fON
 fON
@@ -544320,10 +544306,10 @@ fON
 fON
 fON
 fON
-aUc
-aUc
-vrs
-aUc
+fON
+fON
+fON
+fON
 tmH
 tmH
 tmH
@@ -544753,10 +544739,10 @@ fON
 fON
 fON
 fON
-aUc
-vrs
-vrs
-aUc
+fON
+fON
+fON
+fON
 fON
 tmH
 tmH
@@ -545185,10 +545171,10 @@ fON
 fON
 fON
 fON
-aUc
-aUc
-vrs
-aUc
+fON
+fON
+fON
+fON
 fON
 fON
 fON
@@ -545618,10 +545604,10 @@ fON
 fON
 fON
 fON
-aUc
-vrs
-vrs
-aUc
+fON
+fON
+fON
+fON
 fON
 fON
 tmH
@@ -546050,10 +546036,10 @@ fON
 fON
 fON
 fON
-aUc
-aUc
-hNo
-aUc
+fON
+fON
+fON
+fON
 tmH
 elI
 elI
