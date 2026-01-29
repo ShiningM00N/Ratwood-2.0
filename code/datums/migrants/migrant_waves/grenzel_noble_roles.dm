@@ -49,13 +49,14 @@
 	id = /obj/item/clothing/ring/gold
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/heavy/grenzelhoft
 	pants = /obj/item/clothing/under/roguetown/heavy_leather_pants/grenzelpants
-	shoes = /obj/item/clothing/shoes/roguetown/grenzelhoft
+	shoes = /obj/item/clothing/shoes/roguetown/boots/grenzelhoft
 	belt = /obj/item/storage/belt/rogue/leather/plaquesilver
 	backl = /obj/item/storage/backpack/rogue/satchel/short
 	l_hand = /obj/item/rogueweapon/sword/long
 	beltl = /obj/item/rogueweapon/scabbard/sword
 	beltr = /obj/item/flashlight/flare/torch/lantern
 	backpack_contents = list(
+		/obj/item/storage/belt/rogue/pouch/coins/rich = 1,
 		/obj/item/rogueweapon/huntingknife/idagger = 1,
 		/obj/item/rogueweapon/scabbard/sheath = 1,
 		/obj/item/paper/scroll/writ_of_esteem/grenzel = 1,
@@ -111,7 +112,7 @@
 	head = /obj/item/clothing/head/roguetown/grenzelhofthat
 	armor = /obj/item/clothing/suit/roguetown/armor/plate/blacksteel_half_plate
 	pants = /obj/item/clothing/under/roguetown/heavy_leather_pants/grenzelpants
-	shoes = /obj/item/clothing/shoes/roguetown/grenzelhoft
+	shoes = /obj/item/clothing/shoes/roguetown/boots/grenzelhoft
 	gloves = /obj/item/clothing/gloves/roguetown/angle/grenzelgloves
 	backr = /obj/item/storage/backpack/rogue/satchel/short
 	backl = /obj/item/rogueweapon/scabbard/gwstrap
@@ -142,7 +143,7 @@
 		STATKEY_WIL = 3,
 		STATKEY_SPD = -1,
 	)
-	subclass_stats = list(
+	subclass_skills = list(
 		/datum/skill/combat/wrestling= SKILL_LEVEL_EXPERT,
 		/datum/skill/combat/unarmed= SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/combat/polearms= SKILL_LEVEL_JOURNEYMAN,
