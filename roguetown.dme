@@ -1371,7 +1371,7 @@
 #include "code\modules\asset_cache\asset_cache_client.dm"
 #include "code\modules\asset_cache\asset_cache_item.dm"
 #include "code\modules\asset_cache\asset_list.dm"
-#include "code\modules\roguetown\roguejobs\blacksmith\_ANVIL_DEFINES.dm"
+#include "code\modules\asset_cache\assets\anvil_recipes.dm"
 #include "code\modules\asset_cache\assets\blackedstone.dm"
 #include "code\modules\asset_cache\assets\common.dm"
 #include "code\modules\asset_cache\assets\fontawesome.dm"
