@@ -187,7 +187,7 @@ GLOBAL_LIST_EMPTY(overwatch_events) // List of lists, keyed by ckey
 	layer = ABOVE_MOB_LAYER
 	anchored = TRUE
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
-	invisibility = INVISIBILITY_OBSERVER // Only admins can see
+	invisibility = INVISIBILITY_OBSERVER // Only observers / aghosts can see
 
 /obj/effect/overwatch_marker/attacker
 	name = "Attacker Position"
