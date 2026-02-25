@@ -440,6 +440,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/knot_gaped
 	effectedstats = list("strength" = -1, "speed" = -2, "intelligence" = -1)
 	var/last_loc
+	var/contents_to_drip = /datum/reagent/erpjuice/cum
 
 /datum/status_effect/knot_gaped/on_apply()
 	last_loc = get_turf(owner)
@@ -456,6 +457,10 @@
 	add_cum_floor(cur_loc)
 	playsound(owner, pick('sound/misc/bleed (1).ogg', 'sound/misc/bleed (2).ogg', 'sound/misc/bleed (3).ogg'), 50, TRUE, -2, ignore_walls = FALSE)
 	last_loc = cur_loc
+	var/obj/item/reagent_containers/glass/cum_chalice = locate() in cur_loc
+	if(!cum_chalice?.spillable) // leak contents underneath the first found open container
+		return
+	cum_chalice.reagents.add_reagent(contents_to_drip,1)
 
 /atom/movable/screen/alert/status_effect/knot_gaped
 	name = "Gaped"
