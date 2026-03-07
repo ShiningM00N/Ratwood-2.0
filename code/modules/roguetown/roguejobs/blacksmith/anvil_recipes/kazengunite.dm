@@ -32,9 +32,9 @@
 
 
 /datum/anvil_recipe/kazengunite/samsibsa
-	name = "Samsibsa Scaleplate (+2 Steel, +1 Cured Leather)"
+	name = "Samsibsa Scaleplate (+1 Half-Plate, Steel, +1 Steel, +2 Cured Leather)"
 	req_bar = /obj/item/ingot/steel
-	additional_items = list(/obj/item/ingot/steel, /obj/item/ingot/steel, /obj/item/natural/hide/cured)
+	additional_items = list(/obj/item/clothing/suit/roguetown/armor/plate, /obj/item/ingot/steel, /obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/suit/roguetown/armor/plate/full/samsibsa
 
 
