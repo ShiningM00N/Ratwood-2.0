@@ -87,6 +87,7 @@
 
 /datum/outfit/job/roguetown/vanguard/archer/pre_equip(mob/living/carbon/human/H)
 	..()
+	armor = /obj/item/clothing/suit/roguetown/armor/leather
 	backl = /obj/item/gun/ballistic/revolver/grenadelauncher/bow
 	beltr = /obj/item/quiver/arrows //replaces sword
 	backpack_contents = list(
