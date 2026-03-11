@@ -1,12 +1,12 @@
 /datum/advclass/mercenary/atgervi
 	name = "Atgervi"
-	tutorial = "You are a Varangian from Hammerhold. Warrior-Traders known for their effectiveness and beliefs deemed profane even by other Hammerholdians."
+	tutorial = "You are a Varangian of the Gronn Highlands. Warrior-Traders whose exploits into the Raneshen Empire will be forever remembered by historians."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_ALL_KINDS
 	outfit = /datum/outfit/job/roguetown/mercenary/atgervi
-	subclass_languages = list(/datum/language/dwarvish)
+	subclass_languages = list(/datum/language/gronnic)
 	cmode_music = 'sound/music/combat_vagarian.ogg'
-	class_select_category = CLASS_CAT_HAMMERHOLD
+	class_select_category = CLASS_CAT_GRONN
 	category_tags = list(CTAG_MERCENARY)
 	traits_applied = list(TRAIT_MEDIUMARMOR)
 	subclass_stats = list(
@@ -39,7 +39,7 @@
 
 /datum/outfit/job/roguetown/mercenary/atgervi/pre_equip(mob/living/carbon/human/H)
 	..()
-	to_chat(H, span_warning("You are a Varangian from Hammerhold. Warrior-Traders known for their effectiveness and beliefs deemed profane even by other Hammerholdians."))
+	to_chat(H, span_warning("You are a Varangian of the Gronn Highlands. Warrior-Traders whose exploits into the Raneshen Empire will be forever remembered by historians."))
 	if(H.mind?.current)
 		H.mind.current.faction += "[H.name]_faction"
 	head = /obj/item/clothing/head/roguetown/helmet/bascinet/atgervi
@@ -67,9 +67,9 @@
 
 /datum/advclass/mercenary/atgervi/shaman
 	name = "Atgervi Shaman"
-	tutorial = "You are a Shaman of Fjall, a particularly untamed and dangerous region of Hammerhold. Shamans are savage combatants  who commune with the Ecclesial Beasts through ritualistic violence, rather than idle prayer."
+	tutorial = "You are a Shaman of the Fjall, The Northern Empty. Savage combatants who commune with the Ecclesical Beast gods through ritualistic violence, rather than idle prayer."
 	outfit = /datum/outfit/job/roguetown/mercenary/atgervishaman
-	subclass_languages = list(/datum/language/dwarvish)
+	subclass_languages = list(/datum/language/gronnic)
 	cmode_music = 'sound/music/combat_shaman2.ogg'
 	traits_applied = list(TRAIT_STRONGBITE, TRAIT_CIVILIZEDBARBARIAN, TRAIT_CRITICAL_RESISTANCE, TRAIT_NOPAINSTUN)
 	subclass_stats = list(
@@ -98,7 +98,7 @@
 /datum/outfit/job/roguetown/mercenary/atgervishaman/pre_equip(mob/living/carbon/human/H)
 	..()
 	H.set_blindness(0)
-	to_chat(H, span_warning("You are a Shaman of Fjall, a particularly untamed and dangerous region of Hammerhold. Shamans are savage combatants  who commune with the Ecclesial Beasts through ritualistic violence, rather than idle prayer."))
+	to_chat(H, span_warning("You are a Shaman of the Fjall, The Northern Empty. Savage combatants who commune with the Ecclesical Beast gods through ritualistic violence, rather than idle prayer."))
 	if(H.mind?.current)
 		H.mind.current.faction += "[H.name]_faction"
 	H.dna.species.soundpack_m = new /datum/voicepack/male/warrior()

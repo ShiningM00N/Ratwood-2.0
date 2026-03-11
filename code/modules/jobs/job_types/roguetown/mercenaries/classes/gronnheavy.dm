@@ -5,11 +5,11 @@
 	allowed_races = RACES_ALL_KINDS
 	maximum_possible_slots = 2 //Hopefully this works.
 	outfit = /datum/outfit/job/roguetown/mercenary/gronnheavy
-	class_select_category = CLASS_CAT_HAMMERHOLD
+	class_select_category = CLASS_CAT_GRONN
 	category_tags = list(CTAG_MERCENARY)
 	traits_applied = list(TRAIT_HEAVYARMOR)
 	cmode_music = 'sound/music/combat_vagarian.ogg'
-	subclass_languages = list(/datum/language/dwarvish)
+	subclass_languages = list(/datum/language/gronnic)
 	subclass_stats = list(
 		STATKEY_WIL = 3, //People see big numbers and start shitting their pants, but their weighted stats are 7. This is fine. 
 		STATKEY_STR = 3, //TO WIELD THE MAUL. THEY CAN'T USE ANY OTHER WEAPON TYPE BUT MACES ANYWAY.
