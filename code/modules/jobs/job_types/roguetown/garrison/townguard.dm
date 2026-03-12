@@ -78,7 +78,7 @@
 		STATKEY_PER = 1,//on the lookout for perps
 	)
 	subclass_skills = list(
-		/datum/skill/combat/maces = 3,//They're serviceable with all weapons but I really don't want them to get expert outside of maces - blunt weapons are the role's identity. It's not their job to kill people.
+		/datum/skill/combat/maces = 3,//They're serviceable with all weapons but I really don't want them to get expert outside of the weapons that fit them - blunt weapons are the role's identity. It's not their job to kill people.
 		/datum/skill/combat/swords = 3,
 		/datum/skill/combat/polearms = 3,
 		/datum/skill/combat/axes = 3,
