@@ -2875,6 +2875,7 @@
 #include "modular\code\datums\character_flaw.dm"
 #include "modular\code\game\objects\gallows.dm"
 #include "modular\code\game\objects\pillory.dm"
+#include "modular\code\game\objects\tent_kit.dm"
 #include "modular\code\game\objects\items\items.dm"
 #include "modular\code\game\objects\items\lewd\dildo.dm"
 #include "modular\code\game\objects\items\lewd\dildo_belts.dm"
