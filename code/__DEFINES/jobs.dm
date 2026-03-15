@@ -202,6 +202,7 @@
 #define VAMPIRE_SERVANT (1<<4)
 #define VAMPIRE_GUARD (1<<5)
 #define VAMPIRE_SPAWN (1<<6)
+#define GNOLL		(1<<7)
 
 #define INQUISITION (1<<10)
 
@@ -310,6 +311,7 @@
 #define JDO_WRETCH 30.4
 #define JDO_ASSASSIN 30.5
 #define JDO_TRADER 30.5
+#define JDO_GNOLL 30.6
 
 #define JDO_MERCENARY 31
 #define JDO_GRENZELHOFT 31.1
@@ -401,7 +403,8 @@
 	/datum/job/roguetown/mercenary/desert_rider,\
 	/datum/job/roguetown/mercenary/grenzelhoft,\
 	/datum/job/roguetown/bandit,\
-	/datum/job/roguetown/wretch
+	/datum/job/roguetown/wretch,\
+	/datum/job/roguetown/gnoll
 
 #define GARRISON_ROLES \
 	/datum/job/roguetown/bogguardsman,\

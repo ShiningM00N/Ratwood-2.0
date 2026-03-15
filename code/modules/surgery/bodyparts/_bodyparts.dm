@@ -710,7 +710,7 @@
 		limb_appearance_cache_key = new_cache_key
 
 		// Markings overlays (not cached - can vary)
-		if(!skeletonized)
+		if(!skeletonized && draw_bodypart_features)
 			var/list/marking_overlays = get_markings_overlays(override_color)
 			if(marking_overlays)
 				. += marking_overlays
