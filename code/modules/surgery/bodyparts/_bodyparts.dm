@@ -115,8 +115,6 @@
 	/// Branded writing on body part
 	var/branded_writing = ""
 
-	var/draw_bodypart_features = FALSE
-
 	grid_width = 32
 	grid_height = 64
 
@@ -712,7 +710,7 @@
 		limb_appearance_cache_key = new_cache_key
 
 		// Markings overlays (not cached - can vary)
-		if(!skeletonized && draw_bodypart_features)
+		if(!skeletonized)
 			var/list/marking_overlays = get_markings_overlays(override_color)
 			if(marking_overlays)
 				. += marking_overlays
