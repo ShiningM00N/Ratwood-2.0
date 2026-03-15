@@ -263,7 +263,6 @@
 	cooldown = world.time + 15 SECONDS
 	// High likelyhood of getting a dreamfiend summon upon non dreamwalkers when used.
 	if(!safe_passage && !HAS_TRAIT(user, TRAIT_DREAMWALKER) && (prob(75)))
-	if(!HAS_TRAIT(user, TRAIT_DREAMWALKER) && prob(75))
 		summon_dreamfiend(
 			target = user,
 			user = user,

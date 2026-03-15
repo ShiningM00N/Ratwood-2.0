@@ -1,7 +1,7 @@
 /datum/job/roguetown/gnoll
 	title = "Gnoll"
 	flag = GNOLL
-	department_flag = ANTAGONIST
+	department_flag = WANDERER
 	antag_job = TRUE // whoever wrote this, I'm- gghrhhah!
 	faction = "Station"
 	total_positions = 1

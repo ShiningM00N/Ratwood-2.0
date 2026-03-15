@@ -9,7 +9,7 @@
 	body_parts_inherent = FULL_BODY
 	//slot_flags = ITEM_SLOT_SHIRT|ITEM_SLOT_ARMOR
 	armor = ARMOR_GNOLL_STANDARD
-	prevent_crits = PREVENT_CRITS_ALL
+	prevent_crits = list(BCLASS_CUT, BCLASS_BLUNT, BCLASS_CHOP, BCLASS_PICK, BCLASS_SMASH, BCLASS_STAB, BCLASS_TWIST)
 	blocksound = SOFTHIT
 	blade_dulling = DULLING_BASHCHOP
 	sewrepair = FALSE
@@ -96,7 +96,6 @@
 	name = "thrash"
 	desc = "A powerful, smash of lycan muscle that deals normal damage but can throw a standing opponent back and slow them down, based on your strength. Ineffective below 10 strength. Slowdown & Knockback scales to your Strength up to 15 (1 - 5 tiles). Cannot be used consecutively more than every 5 seconds on the same target. Prone targets halve the knockback distance."
 	icon_state = "insmash"
-	maxrange = 5
 	chargetime = 1
 	penfactor = 0
 
