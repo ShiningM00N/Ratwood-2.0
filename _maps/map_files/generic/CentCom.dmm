@@ -1847,6 +1847,7 @@
 "hA" = (
 /obj/structure/fluff/railing/wood,
 /obj/effect/decal/cleanable/blood/old,
+/obj/effect/landmark/start/gnolllate,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/woods)
 "hC" = (
@@ -6575,6 +6576,10 @@
 /obj/machinery/light/rogue/wallfire/candle,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/vampire_manor)
+"Fj" = (
+/obj/effect/landmark/start/gnolllate,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/woods)
 "Fk" = (
 /turf/closed/wall/mineral/rogue/stone,
 /area/rogue/indoors)
@@ -9282,6 +9287,10 @@
 /obj/effect/landmark/start/vampirelord,
 /turf/open/floor/carpet/red,
 /area/rogue/indoors/vampire_manor)
+"Ta" = (
+/obj/effect/landmark/start/gnoll,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/woods)
 "Tc" = (
 /obj/structure/flora/roguetree/burnt,
 /obj/structure/flora/roguetree/burnt,
@@ -19277,7 +19286,7 @@ rQ
 wk
 Ac
 VG
-VG
+Ta
 VG
 wk
 VG
@@ -20056,7 +20065,7 @@ JY
 rQ
 wk
 VG
-VG
+Ta
 VG
 wk
 wk
@@ -20072,7 +20081,7 @@ wk
 VG
 VG
 VG
-VG
+Fj
 VG
 VG
 wk
@@ -20578,13 +20587,13 @@ wk
 VG
 VG
 WU
-VG
+Ta
 VG
 VG
 wk
 wk
 VG
-VG
+Ta
 wk
 wk
 wk
