@@ -814,7 +814,7 @@
 /area/rogue/outdoors/woods)
 "ck" = (
 /obj/structure/hotspring/border/five,
-/turf/open/floor/rogue/grasscold,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "cl" = (
 /turf/open/floor/rogue/blocks/flipped,
@@ -1345,6 +1345,12 @@
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/cave/inhumen/wretch/ghrotto)
+"fg" = (
+/obj/structure/hotspring,
+/obj/structure/hotspring,
+/obj/structure/hotspring,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/woods)
 "fh" = (
 /obj/structure/bars,
 /turf/open/floor/rogue/dirt,
@@ -1497,7 +1503,10 @@
 	})
 "fN" = (
 /obj/structure/hotspring,
-/turf/open/floor/rogue/grasscold,
+/obj/structure/hotspring,
+/obj/structure/hotspring,
+/obj/structure/hotspring,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "fO" = (
 /obj/machinery/light/rogue/firebowl/standing{
@@ -2575,7 +2584,7 @@
 /area/rogue/outdoors/banditcamp)
 "le" = (
 /obj/structure/hotspring/border/eleven,
-/turf/open/floor/rogue/grasscold,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "ln" = (
 /obj/structure/bars,
@@ -3463,6 +3472,9 @@
 /area/rogue/indoors/vampire_manor)
 "pI" = (
 /obj/structure/hotspring/border/six,
+/obj/effect/particle_effect/smoke{
+	lifetime = 14400
+	},
 /turf/open/floor/rogue/grasscold,
 /area/rogue/outdoors/woods)
 "pK" = (
@@ -3753,7 +3765,7 @@
 /area/rogue/indoors/banditcamp)
 "ru" = (
 /obj/structure/hotspring,
-/turf/open/water/cleanshallow,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "rw" = (
 /obj/structure/flora/roguegrass,
@@ -4384,6 +4396,11 @@
 /obj/structure/flora/roguegrass/bush/wall/tall,
 /turf/open/floor/rogue/dirt,
 /area/rogue/indoors)
+"uT" = (
+/obj/structure/hotspring/border/eleven,
+/obj/structure/hotspring,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/woods)
 "uX" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/grown/log/tree/small,
@@ -4492,9 +4509,6 @@
 "vy" = (
 /obj/structure/hotspring/border/five,
 /obj/structure/hotspring/border/five,
-/obj/effect/particle_effect/smoke{
-	lifetime = 14400
-	},
 /turf/open/floor/rogue/grasscold,
 /area/rogue/outdoors/woods)
 "vB" = (
@@ -4806,8 +4820,9 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/cave/inhumen/wretch/ghrotto)
 "xf" = (
-/obj/machinery/light/rogue/oven,
-/turf/closed/mineral/rogue/bedrock,
+/obj/structure/hotspring,
+/obj/structure/hotspring,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "xg" = (
 /obj/structure/mineral_door/bars,
@@ -5351,9 +5366,8 @@
 /turf/open/floor/carpet/red,
 /area/rogue/indoors/vampire_manor)
 "zP" = (
-/obj/structure/hotspring,
-/obj/structure/flora/roguegrass/water/reeds,
-/turf/open/water/cleanshallow,
+/obj/machinery/light/rogue/oven/south,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "zQ" = (
 /turf/closed/wall/mineral/rogue/tent{
@@ -6420,9 +6434,6 @@
 	})
 "Ew" = (
 /obj/structure/hotspring/border/four,
-/obj/effect/particle_effect/smoke{
-	lifetime = 14400
-	},
 /turf/open/floor/rogue/grasscold,
 /area/rogue/outdoors/woods)
 "Ex" = (
@@ -6870,6 +6881,11 @@
 /obj/machinery/light/rogue/torchholder/c,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors)
+"GO" = (
+/obj/structure/hotspring/border/five,
+/obj/structure/flora/roguegrass/water/reeds,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/woods)
 "GT" = (
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/cobblerock,
@@ -9100,6 +9116,13 @@
 	},
 /turf/open/floor/rogue/concrete,
 /area/rogue/outdoors/cave/inhumen/wretch/ghrotto)
+"RP" = (
+/obj/structure/hotspring/border/five,
+/obj/effect/particle_effect/smoke{
+	lifetime = 14400
+	},
+/turf/open/floor/rogue/grasscold,
+/area/rogue/outdoors/woods)
 "RR" = (
 /obj/structure/closet/crate/drawer,
 /turf/open/floor/carpet/purple,
@@ -9323,7 +9346,7 @@
 /area/rogue/under/cave/inhumen/wretch/camp)
 "Tl" = (
 /obj/structure/hotspring/border/nine,
-/turf/open/floor/rogue/grasscold,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "Tn" = (
 /obj/machinery/light/rogue/torchholder{
@@ -9405,7 +9428,7 @@
 "TQ" = (
 /obj/structure/hotspring/border/eight,
 /obj/structure/flora/roguegrass/water/reeds,
-/turf/open/floor/rogue/grasscold,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "TS" = (
 /obj/structure/flora/roguegrass,
@@ -15670,7 +15693,7 @@ wk
 wk
 df
 eV
-zP
+ru
 ru
 ru
 ru
@@ -15801,9 +15824,9 @@ wk
 Ew
 xx
 ru
-zP
-zP
-zP
+ru
+ru
+ru
 ru
 jm
 vB
@@ -15928,10 +15951,10 @@ wk
 wk
 wk
 wk
-ck
-ru
-ru
-ru
+RP
+fN
+fg
+xf
 ru
 ru
 ru
@@ -16059,10 +16082,10 @@ wk
 wk
 wk
 vy
-ru
-ru
-ru
-ru
+xf
+fN
+fg
+xf
 ru
 ru
 Pc
@@ -16321,7 +16344,7 @@ wk
 vB
 kh
 Ju
-uZ
+uT
 ru
 ru
 ru
@@ -16712,7 +16735,7 @@ Rm
 vB
 Ls
 vB
-eV
+GO
 ru
 ru
 ru
@@ -16974,7 +16997,7 @@ vB
 df
 KM
 ck
-fN
+ru
 Tl
 YX
 df
@@ -18114,8 +18137,8 @@ JY
 (59,1,1) = {"
 rQ
 wk
-xf
-KM
+wk
+zP
 VG
 wk
 wk
